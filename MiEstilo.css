@@ -1,0 +1,15 @@
+.navbar{
+    background-color: #25c7b2d3;
+    min-height: 65px;
+}
+
+.nav-link { 
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+.navbar-brand{
+    color: #ffffff;
+    font-size:230%;
+    font-family:Georgia, serif;
+}
