@@ -38,3 +38,10 @@ body{
 .card mb-3{
     width:30%
 }
+.card-link{
+    color: #25c7b2d3;
+    font-family:'Franklin Gothic Medium', sans-serif
+}
+#button{
+    color: #25c7b2d3;
+}
