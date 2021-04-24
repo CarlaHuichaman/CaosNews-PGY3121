@@ -57,9 +57,59 @@ h1{
     text-align: center;
 }
 
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', sans-serif
+}
+
+h4{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size:small;
+}
+
+h5{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size:15px;
+    font-weight: bold;
+}
+
 #imagen{
     float: right;
     margin: 3%;
 }
 
+#envmens{
+    background-color:#25c7b2d3;
+}
+
+#contact{
+    background-color:#858585d3;
+}
+
+.form-control{
+    text-align: center;
+    width: 70%;
+    font-size: small;
+    font-family:'Lucida Sans',sans-serif;
+}
+
+.form-label{
+    text-align: center;
+    width: 70%;
+    font-family:'Franklin Gothic Medium', sans-serif;
+}
+
+
+#btnformcont{
+    width: 42%;
+    background-color:#858585d3;
+    border: 2px solid #4f4f4fe8;
+}
 
