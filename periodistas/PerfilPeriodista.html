@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="MiEstilo.css">
+    <link rel="stylesheet" href="../MiEstilo.css">
     <title>Caos News</title>
 </head>
 <body>
@@ -13,22 +13,21 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="Imagenes\news.png" alt="" width="95" height="65" class="d-inline-block align-text-top">
+              <img src="../Imagenes/news.png" alt="" width="95" height="65" class="d-inline-block align-text-top">
               CAOS NEWS
             </a>
         </div>
         <div class="container-fluid">
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  <a class="nav-link" href="../nosotros.html">Nosotros</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,12 +40,11 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="PagPeriodistas.html">Periodistas</a>
+                  <a class="nav-link" href="../PagPeriodistas.html">Periodistas</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="Contacto.html">Contacto</a>
+                  <a class="nav-link" href="../Contacto.html">Contacto</a>
                 </li>
-               
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
@@ -55,33 +53,42 @@
             </div>
           </div>
     </nav>
-
-    <!--Login-->
-    <div class="modal-dialog text-center">
-      <div class="col-sm-8 main-section">
-        <div class="modal-content">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Correo Electrónico
-              </label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8"></div>
+        <div class="col-2">
+          <div class="card-body">
+            <div class="d-flex justify-content-end">
+              <p>Xxxx Xxxx</p>
+              <img src="/Imagenes/Icono Login.png" alt="" width="25" height="25" class="d-inline-block align-text-top">
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+      
+          <div class="card-body">
+            <div class="d-flex justify-content-end">
+              <a href="#" class="card-link">Cerrar Sesión </a>
+              <img src="/Imagenes/Icono Cerrar Sesion.png" alt="" width="30" height="25" class="d-inline-block align-text-top">
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-
-  
+    <div class="container">
+    <h6>>Periodistas</h6>
+    <div class="row justify-content-center">
+    <div class="card w-50" id="blockborder2">
+      <div class="card-body justify-content-center" >
+        <h6 class="display-6"> Nombre : Xxxxx Xxxxxx</h6>
+        <h6 class="display-6" > <img src="../Imagenes/MAURICIO-BUSTAMANTE-2.jpg" id="imgderecha" width="200px" height="150px" alt=""> Edad : XX</h6>
+        <h6 class="display-6" >Categorias : xxxxxxxx</h6>
+        <h6 class="display-6" >Ocupacion /Es : Xxxxxx Xxxxxxx</h6>
+        <h6 class="display-6">Cantidad Noticias : xx </h6>
+        <div class="pading"></div>
+      </div>
+    </div>
+    </div>
+    </div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 </body>
 </html>

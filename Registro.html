@@ -34,12 +34,11 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Categorías
                     </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="gatos.html">...</a></li>
-                      <li><a class="dropdown-item" href="perros.html"></a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">...</a></li>
-                    </ul>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Nacional</a></li>
+                     <li><a class="dropdown-item" href="#">Mundo</a></li>
+                     <li><a class="dropdown-item" href="#">Dato Util</a></li>
+                  </ul>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="PagPeriodistas.html">Periodistas</a>
@@ -57,29 +56,33 @@
           </div>
     </nav>
     <div class="pading"></div>
-    <div class="container">
-      <div class="block" id="blockborder">
-          <form>
-            <div class="col">
-              <label for="exampleInputEmail1" class="form-label">Ingrese Nombre y Apellido
-              </label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
+    <div class="row justify-content-center">
+      <div class="col-5">
+        <div class="container">
+          <div class="block p-5" id="blockborder">
+              <form class="row justify-content-center">
+                <div class="col-12">
+                  <label for="exampleInputEmail1" class="form-label">Ingrese Nombre y Apellido
+                  </label>
+                  <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text"></div>
+                </div>
+                <div class="col-12">
+                  <label for="exampleInputPassword1" class="form-label">Gmail</label>
+                  <input type="password" class="form-control w-100" id="exampleInputPassword1">
+                </div>
+                <div class="col-12">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control w-100" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Recordarme</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Entrar</button>
+              </form>
             </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Entrar</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>
