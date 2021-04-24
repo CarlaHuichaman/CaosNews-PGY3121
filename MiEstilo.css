@@ -58,7 +58,10 @@ h1{
 }
 
 h2{
-    text-align: center;
+    font-family:'Lucida Sans', sans-serif;
+    font-size:small;
+    text-align: justify;
+    line-height : 20px;
 }
 
 h3{
@@ -69,7 +72,10 @@ h3{
 
 h4{
     font-family:'Franklin Gothic Medium', sans-serif;
-    font-size:small;
+    font-size:smaller;
+    font-style: normal;
+    word-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 h5{
@@ -82,12 +88,6 @@ h5{
 h6{
     font-family:'Franklin Gothic Medium', sans-serif;
     font-size: 30px;
-}
-
-h7{
-    text-align: center;
-    font-family:'Franklin Gothic Medium', sans-serif;
-    font-size:small;
 }
 
 #imagen{
@@ -137,3 +137,4 @@ h7{
 #blockborder{
     border: 2px solid #4f4f4fe8;
 }
+
