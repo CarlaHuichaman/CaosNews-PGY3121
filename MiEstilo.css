@@ -43,10 +43,16 @@ body{
     color: #25c7b2d3;
     font-family:'Franklin Gothic Medium', sans-serif
 }
-#button{
-    color: #25c7b2d3;
-}
+
 p{
     color: #25c7b2d3;
     font-family:'Franklin Gothic Medium', sans-serif
+}
+
+.mb-3{
+    width: 60%;
+}
+
+h1{
+    text-align: center;
 }
