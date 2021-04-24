@@ -78,38 +78,43 @@
       </div>
     </div>
 
-    <div class="container px-5";>
-      <div class="row gx-5">
-        <div class="col">
-          <div class="p-3 border" id="envmens">
-          <h3>Enviar Mensaje</h3>
-          <form>
-            <div class="justify-content-mb-center">
-            <div class="pading"></div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Nombre y apellido: *</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre y apellido">
+    <div class="container">
+      <div class="row">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" id="envmens">
+                <form class="row justify-content-center">
+                  <div class="col-12">
+                    <label for="exampleInputEmail1" class="form-label">Ingrese Nombre y Apellido
+                    </label>
+                    <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                  </div>
+                  <div class="col-12">
+                    <label for="exampleInputEmail1" class="form-label">Gmail
+                    </label>
+                    <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                  </div>
+                  <div class="col-12">
+                    <label for="exampleInputPassword1" class="form-label">Asunto</label>
+                    <input type="password" class="form-control w-100" id="exampleInputPassword1">
+                  </div>
+                  <div class="col-12">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje: </label>
+                    <textarea class="form-control w-100" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="2"></textarea>
+                  </div>
+                  <div class="pading"></div>
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
               </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Correo electrónico: *</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
             </div>
-            <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label">Asunto: *</label>
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
-            </div>
-            <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje: </label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensaje" rows="2"></textarea>
-            </div>
-            <button type="button" id="btnformcont" class="btn btn-primary btn-sm">Enviar</button>
-            </div>
-          </form>
-         </div>
-        </div>
-        <div class="col">
-          <div class="p-3 border" id="contact">
-            <h3>Contacto</h3>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body" id="contact">
+                <h3>Contacto</h3>
             <div class="pading"></div>
             <h5>Correo electrónico:</h5>
             <h5>xxxxxxxx@xxxxx.xxx</h5>
@@ -124,51 +129,7 @@
             <h5>-</h5>
             <h5>Fonos:</h5>
             <h5>(2) 2XXXXXXX - (2) 2XXXXXXX</h5>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <div class="row justify-content-center">
-              <form class="row justify-content-center">
-                <div class="col-12">
-                  <label for="exampleInputEmail1" class="form-label">Ingrese Nombre y Apellido
-                  </label>
-                  <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text"></div>
-                </div>
-                <div class="col-12">
-                  <label for="exampleInputEmail1" class="form-label">Ingrese Nombre y Apellido
-                  </label>
-                  <input type="email" class="form-control w-100" id="exampleInputEmail1" aria-describedby="emailHelp">
-                  <div id="emailHelp" class="form-text"></div>
-                </div>
-                <div class="col-12">
-                  <label for="exampleInputPassword1" class="form-label">Gmail</label>
-                  <input type="password" class="form-control w-100" id="exampleInputPassword1">
-                </div>
-                <div class="col-12">
-                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                  <input type="password" class="form-control w-100" id="exampleInputPassword1">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Recordarme</label>
-                </div>
-                <button type="submit" class="btn btn-primary">Entrar</button>
-              </form>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
           </div>
         </div>

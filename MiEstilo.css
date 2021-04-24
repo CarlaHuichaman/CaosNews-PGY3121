@@ -137,4 +137,17 @@ h6{
 #blockborder{
     border: 2px solid #4f4f4fe8;
 }
-
+#blockborder2{
+    align-content: center;
+    padding: 50px ;
+    text-align:left;
+    background-color:#858585d3 ;
+    width: 600px;
+    height: 320px;
+}
+#imgderecha{
+    float: right;
+}
+.display-6{
+    font-size:x-large;
+}
