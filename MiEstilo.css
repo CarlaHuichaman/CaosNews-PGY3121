@@ -124,3 +124,13 @@ h7{
 }
 
 
+#borderimgn{
+    padding-right: 25px;
+}
+
+#fontcardindex{
+    color: #25c7b2d3;
+    font-size: 13px;
+    text-align: end;
+    font-weight: bold;
+}
