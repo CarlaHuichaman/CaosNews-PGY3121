@@ -16,7 +16,7 @@
 }
 
 #carouselExampleIndicators{
-    height: 40%;
+    height: 30%;
 }
 
 .container{
@@ -164,3 +164,8 @@ h6{
     height: 150px;
 }
 
+.display-5{
+    color: #25c7b2d3;
+    font-size:xx-large;
+    text-align: center;
+}
