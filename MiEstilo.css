@@ -1,5 +1,5 @@
 .navbar{
-    background-color: #25c7b2d3;
+    background-color: #25c7b1;
     min-height: 50px;
 }
 
@@ -150,10 +150,11 @@ h6{
 
 #imgderecha{
     float: right;
+    padding-left: 6%;
 }
 
 .display-6{
-    font-size:x-large;
+    font-size:large;
 }
 
 
