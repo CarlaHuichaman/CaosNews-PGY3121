@@ -169,3 +169,9 @@ h6{
     font-size:xx-large;
     text-align: center;
 }
+
+.display-3{
+    text-align: left;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    font-size: 30px;
+}
