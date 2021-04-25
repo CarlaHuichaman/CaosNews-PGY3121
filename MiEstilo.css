@@ -134,9 +134,11 @@ h6{
     text-align: end;
     font-weight: bold;
 }
+
 #blockborder{
     border: 2px solid #4f4f4fe8;
 }
+
 #blockborder2{
     align-content: center;
     padding: 50px ;
@@ -145,9 +147,19 @@ h6{
     width: 600px;
     height: 320px;
 }
+
 #imgderecha{
     float: right;
 }
+
 .display-6{
     font-size:x-large;
 }
+
+
+#imgper{
+    padding-left: 90px;
+    width: 200px;
+    height: 150px;
+}
+
