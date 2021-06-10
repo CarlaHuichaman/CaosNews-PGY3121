@@ -175,3 +175,23 @@ h6{
     font-family:'Franklin Gothic Medium', sans-serif;
     font-size: 30px;
 }
+
+#msj{
+    text-align: left;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', sans-serif
+}
+
+#enviar{
+    background-color: #25c7b2d3;
+    color: #ffffff;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    border: 2px solid #25c7b2d3
+}
+
+#enviarcontacto{
+    background-color: #ffffff;
+    color: #25c7b2d3;
+    font-family:'Franklin Gothic Medium', sans-serif;
+    border: 2px solid #ffffff
+}
