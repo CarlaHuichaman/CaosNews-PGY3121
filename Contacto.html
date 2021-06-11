@@ -8,6 +8,7 @@
     <title>Caos News</title>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="ApiClima.js"></script>
     <script>
         $(document).ready(
             function(){
@@ -76,6 +77,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="nosotros.html">Nosotros</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="BuscadorNoticias.html" id="navespaciales">Noticias Espaciales</a>
+                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Categorías
@@ -135,12 +139,12 @@
                     <label for="exampleInputEmail1" class="form-label w-100">Ingrese Nombre y Apellido
                     </label>
                     <input type="text" class="form-control w-100" id="nombre" placeholder="Nombre y apellido">
-                    <div id="nombre" class="form-text"></div>
+                    <div id="nombre1" class="form-text"></div>
                   </div>
                   <div class="col-12">
                     <label for="exampleInputEmail1" class="form-label w-100">Correo Electrónico</label>
                     <input type="email" class="form-control w-100" id="email" placeholder="correoelectronico@ejemplo.com">
-                    <div id="email" class="form-text"></div>
+                    <div id="email1" class="form-text"></div>
                   </div>
                   <div class="col-12">
                     <label for="asunto" class="form-label w-100">Asunto</label>
@@ -152,6 +156,7 @@
                   </div>
                   <div class="pading"></div>
                   <button type="submit" class="btn btn-primary" id="enviarcontacto">Enviar</button>
+                  <div class="alert alert-danger" role="alert" id="error"></div>
                 </form>
               </div>
             </div>
